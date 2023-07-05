@@ -5,13 +5,16 @@
 }
 
 body{
+    color: snow; 
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: rgb(34,193,195);
+background: linear-gradient(4deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
 }
 .nav-bar{
     width: 100%;
     height: 30px; 
     overflow: hidden; 
-    background-image: url('https://images.unsplash.com/photo-1664366095115-9b4882d0d3b7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80');
+    background-color: rgba(0, 0, 0, 0.3);
     display: flex;
     justify-content: space-around;
 
@@ -32,13 +35,14 @@ body{
     display: flex; 
     justify-content: flex-end;
     align-items: center;
+    margin-right: -110px;
 }
 
 .nav-bar ul li{
     color: rgb(255, 255, 255); 
     padding: 6px; 
     font-weight: bold;
-    background-color: rgba(0, 0, 0, 0.1);
+
     margin: 0; 
     color: white;
 }
@@ -56,11 +60,11 @@ body{
 .intro{
     width: 100%; 
     height: 200px; 
-    background-color: antiquewhite;
+    background-color: rgba(0, 0, 0, 0.1);
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-image: url('https://images.unsplash.com/photo-1664366095115-9b4882d0d3b7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80');
+   
 }
 
 .pro-pic{
@@ -71,7 +75,7 @@ body{
     background-image: url('Ador\ Shahriar.jpg');
     background-size: contain;
     background-position: 35% 20%;
-    margin-left: 15%;
+    margin-left: 12%;
 
 }
 
@@ -84,6 +88,30 @@ body{
     position: relative;
     top: 30px;
 
+}
+
+.education{
+    width: 100%; 
+    height: 200px; 
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.education h2{
+    margin-left: 30px;
+}
+
+.edu-container{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ssc, .hsc, .bsc, .mba{
+    margin: 10px;
+    width: 80%;
+    height: 30px; 
+    background: rgb(131,58,180);
+    background: linear-gradient(10deg, rgba(131,58,180,1) 0%, rgba(29,173,253,1) 50%, rgba(252,176,69,1) 100%);
 }
 
 
